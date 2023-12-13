@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'progress_bar.dart';
 
+// ignore: must_be_immutable
 class MyStoryBars extends StatelessWidget {
   List<double> percentWatched = [];
 

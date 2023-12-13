@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lottie/lottie.dart';
 import 'package:practice_8_9/login/repository/auth_repository.dart';
 import '../navigation_bar/navigation_bar.dart';
 import 'bloc/auth_bloc.dart';

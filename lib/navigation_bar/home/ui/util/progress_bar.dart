@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 
+// ignore: must_be_immutable
 class MyProgressBar extends StatelessWidget {
   double percentWatched = 0;
 

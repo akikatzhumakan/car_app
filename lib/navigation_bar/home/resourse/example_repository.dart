@@ -1,4 +1,3 @@
-import 'package:dio/dio.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:practice_8_9/rest_client/mobile_api_cars.dart';
 
@@ -13,10 +12,8 @@ class ListRepository {
     emit(LoadingListState());
     try {
       final getListData = await _mobileClientCars.getListData();
-      print(getListData);
       emit(LoadedListState(getListData));
     } catch (e) {
-      print(e.toString());
       emit(FailureProfileState(e.toString()));
     }
   }
